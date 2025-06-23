@@ -6,8 +6,8 @@
 
 body {
     font-family: "Arial", sans-serif;
-    background-color: #0a0a0a;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #0a0a0a;
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -18,11 +18,11 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    background: navy;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid #333;
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 10px 20px;
 }
 
 .nav-container {
@@ -39,9 +39,9 @@ body {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+    background: whitesmoke;
     background-size: 300% 300%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -139,8 +139,8 @@ body {
     display: inline-block;
 }
 
-.heading-text {
-    font-size: 2.2rem;
+.cta-heading-text {
+    font-size: 2rem;
     font-weight: bold;
     color: #ffffff;
     position: relative;
@@ -149,7 +149,7 @@ body {
 
 .underline {
     position: absolute;
-    bottom: -8px;
+    bottom: -5px;
     left: 0;
     height: 3px;
     background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
@@ -166,7 +166,7 @@ body {
 
 .section-paragraph {
     font-size: 1.1rem;
-    color: #cccccc;
+    color: #0a0a0a;
     margin-bottom: 1.5rem;
     text-align: justify;
 }
@@ -174,7 +174,7 @@ body {
 .intro-text {
     display: block;
     font-size: 1.1rem;
-    color: #e0e0e0;
+    color: #0a0a0a;
     margin-bottom: 1.5rem;
     font-weight: 500;
 }
@@ -186,6 +186,7 @@ body {
 
 .list-item {
     background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    color: white;
     margin-bottom: 1rem;
     padding: 1.5rem;
     border-radius: 10px;
